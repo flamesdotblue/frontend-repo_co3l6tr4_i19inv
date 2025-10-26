@@ -31,13 +31,13 @@ export default function Hero() {
               className="mt-8 flex flex-wrap gap-3"
             >
               <a
-                href="#agir"
+                href="#don"
                 className="inline-flex items-center rounded-full bg-emerald-600 px-6 py-3 text-white font-medium shadow hover:bg-emerald-500"
               >
                 Faire un don
               </a>
               <a
-                href="#mission"
+                href="#apropos"
                 className="inline-flex items-center rounded-full border border-slate-300 px-6 py-3 text-slate-700 font-medium hover:bg-slate-50"
               >
                 Découvrir notre mission

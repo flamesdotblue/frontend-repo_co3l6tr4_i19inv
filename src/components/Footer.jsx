@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin, Globe } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer id="agir" className="mt-10 border-t border-slate-200 bg-white">
+    <footer id="contact" className="mt-10 border-t border-slate-200 bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           <div>
@@ -25,7 +25,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div id="don">
             <h4 className="text-sm font-semibold uppercase tracking-wider text-slate-900">Agir avec nous</h4>
             <p className="mt-4 text-sm text-slate-700">Votre soutien change des vies : faites un don, devenez bénévole ou parrainez un programme.</p>
             <div className="mt-5 flex flex-wrap gap-3">

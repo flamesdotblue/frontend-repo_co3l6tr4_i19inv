@@ -3,9 +3,10 @@ import { Menu, X } from 'lucide-react';
 
 const navItems = [
   { label: 'Accueil', href: '#top' },
-  { label: 'Notre mission', href: '#mission' },
-  { label: 'Programmes', href: '#programmes' },
-  { label: 'Agir avec nous', href: '#agir' },
+  { label: 'Qui sommes-nous', href: '#apropos' },
+  { label: 'Nos actions', href: '#programmes' },
+  { label: 'Actualités', href: '#actualites' },
+  { label: 'Contact', href: '#contact' },
 ];
 
 export default function Navbar() {
@@ -38,9 +39,9 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="#agir"
+              href="#don"
               className="inline-flex items-center rounded-full bg-emerald-600 px-4 py-2 text-sm font-medium text-white shadow hover:bg-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-400"
-            >
+           >
               Faire un don
             </a>
           </nav>
@@ -68,7 +69,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="#agir"
+                href="#don"
                 onClick={() => setOpen(false)}
                 className="mt-2 inline-flex items-center justify-center rounded-full bg-emerald-600 px-4 py-2 text-sm font-medium text-white shadow hover:bg-emerald-500"
               >
